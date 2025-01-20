@@ -9,7 +9,7 @@ import wall6 from './assets/wall6.jpg';
 
 function App() {
   const [location, setLocation] = useState('Fetching location...');
-  const [weather, setWeather] = useState('');
+  const [weather, setWeather] = useState('Fetching weather...');
   const [backgroundImage, setBackgroundImage] = useState('');
   const [clock, setClock] = useState(new Date().toLocaleTimeString());
 
